@@ -1,0 +1,240 @@
+#about {
+	clear: both;
+	overflow: hidden; 
+}
+
+#about img{
+	float: left; 
+	width: 50%;
+}
+
+#about p {
+	margin: 0px 10px 0px 0px; 
+	display: block; 
+	height: 400px;
+	font-family: "Arial Black", Gadget, san-serif;
+}
+footer {
+   background-image: radial-gradient(ellipse farthest-corner at 45px 45px , #00FFFF 0%, rgba(0, 0, 255, 0) 50%, #963A07 95%);
+   background-color:#282828;
+   background-size:10px 10px;
+   padding-top: 1%; 
+}
+
+footer li{
+	display: inline;
+	margin: 0 10px 10px 10px;
+}
+
+footer a {
+	font-weight: bold;  
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 110%;
+	color: #F5D04C;
+	text-decoration: none;
+}
+
+footer a:hover {
+	text-decoration: underline; 
+}
+
+header {
+	border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+header img {
+	border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+	width: 18%; 
+}
+
+header nav {
+	border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+	background-color: black; 
+}
+
+header nav ul {
+	list-style-type: none; 
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	background-color: #89150D;
+	font-family: Impact, Times, san-serif;
+	font-size: 140%; 
+	padding: 0; 
+	margin: 0; 
+}
+
+header nav ul li {
+	float: left;
+}
+
+header nav ul li a {
+	display: block; 
+	padding: .5em; 
+	border: 1px solid #BA89A8;
+	margin: .25em; 
+}
+
+header nav ul li a:link {
+	text-decoration: none;
+}
+
+header nav ul li a:hover {
+	text-decoration: underline; 
+}
+
+header p {
+	float: right; 
+	margin: 10% 11% 0 0;
+	font-weight: bold; 
+	font-style: italic; 
+	font-size: 150%;
+}
+
+.right {
+	text-align: right; 
+}
+
+#copyright {
+	color: white;
+	font-size: 60%;
+}
+
+.alignright {
+	float: right; 
+}
+
+.alignleft {
+	float: left;
+}
+
+.contact {
+	width: 50%; 
+	margin: 0 100px 10px auto;
+	color: #960776;
+	font-weight: bold; 
+	font-family: "Arial Black", Gadget, san-serif;
+}
+body {
+	background-image: radial-gradient(ellipse farthest-corner at 45px 45px , #00FFFF 0%, rgba(0, 0, 255, 0) 50%, #963A07 95%);
+	background-color:#282828;
+	background-size:10px 10px;
+}
+input {
+	color: #781351;
+	background: #fee3ad;
+	border: 1px solid #781351
+}
+
+textarea {
+	color: #781351;
+	background: #fee3ad;
+	border: 1px solid #781351 
+ }
+ 
+ form {
+	 border: 1px solid #A000732;
+ }
+.button {
+	background-color: #963A07; 
+    border: none;
+    color: white;
+    background-image: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 50%, rgba(255,255,255,0.5) 51%);
+	padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+}
+
+.contact_info {
+	margin: 0 170px 10px 35%;
+}
+.contact_text {
+	font-family: "Arial Black", Gadget, san-serif;
+   font-size: 80%;	
+}
+
+.company_info {
+	display: inline-block; 
+	margin-left: auto; 
+	margin-right: auto;
+	padding-right: 3%; 
+	font-family: "Arial Black", Gadget, san-serif;
+   font-size: 80%;
+}
+
+.phone_numbers {
+	display: inline-block; 
+	margin-left: auto; 
+	margin-right: auto;	
+	font-family: "Arial Black", Gadget, san-serif;
+   font-size: 80%;
+}
+
+#services {
+	overflow: hidden; 
+	clear: both;
+	margin: 5% 5%;
+	min-width: 500px; 
+}
+
+#services a {
+    text-decoration: none; 
+	color: #960776;
+	font-weight: bold;
+	font-size: 110%;
+	font-style: italic; 
+	float: right; 
+}
+
+#services a:hover {
+    text-decoration: underline; 
+}
+#services p {
+   font-family: "Arial Black", Gadget, san-serif;
+   padding: 1%; 
+}
+
+#services ul {
+	list-style-type: none; 
+	padding: 0; 
+	margin: 0; 
+}
+
+#services ul li {
+	float: left; 
+	width: 22%;
+	margin: 0 1.1% 0 1.1%; 
+}
+
+#services ul li img {
+	width: 100%; 
+	box-shadow: 10px 10px 5px #888888;
+}
+
+#services ul li h2 {
+   color: #89150D;
+   font-family: Impact, Times, san-serif;
+}
+
+@media screen and (max-width: 800px) {
+	#services ul li {
+		clear: both; 
+		width: 22%;
+		margin: 0 1.1% 0 1.1%; 
+	}
+}
+#wrapper {
+	border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+	width: 70%; 
+	margin: 0 auto;
+	background-color: #FFF;
+}
